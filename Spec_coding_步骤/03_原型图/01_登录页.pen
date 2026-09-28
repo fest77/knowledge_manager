@@ -1,0 +1,326 @@
+{
+  "version": "2.11",
+  "fonts": [
+    {
+      "name": "原型中文",
+      "url": "fonts/kb-cn-regular.woff2"
+    },
+    {
+      "name": "原型中文",
+      "url": "fonts/kb-cn-bold.woff2",
+      "weight": 700
+    }
+  ],
+  "children": [
+    {
+      "type": "frame",
+      "id": "taJaN",
+      "name": "知识库管理平台·登录页",
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 600,
+      "fill": "#FCFCFC",
+      "layout": "none",
+      "clip": true,
+      "children": [
+        {
+          "type": "frame",
+          "id": "p0Arz",
+          "name": "loginCard",
+          "width": 440,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": 32,
+          "gap": 18,
+          "cornerRadius": 12,
+          "stroke": "#D9D9D9",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "children": [
+            {
+              "type": "text",
+              "id": "a64Nj",
+              "name": "loginBrand",
+              "fill": "#223248",
+              "content": "知识库管理平台",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 26,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "JTdAw",
+              "name": "loginSub",
+              "fill": "#666666",
+              "content": "Enterprise Knowledge Base · AI 鉴权问答",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "OU56B",
+              "name": "loginHr",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#D9D9D9"
+            },
+            {
+              "type": "frame",
+              "id": "B9rYI",
+              "name": "fUser",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pdm0f",
+                  "name": "fUserL",
+                  "fill": "#333333",
+                  "content": "账号 *",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "textGrowth": "fixed-width",
+                  "width": 80
+                },
+                {
+                  "type": "frame",
+                  "id": "FECC7",
+                  "name": "fUserI",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "#FAFAFA",
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "cornerRadius": 4,
+                  "stroke": "#CFCFCF",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wDUeC",
+                      "name": "fUserIT",
+                      "fill": "#777777",
+                      "content": "请输入账号",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hiazx",
+              "name": "fPwd",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IOLhq",
+                  "name": "fPwdL",
+                  "fill": "#333333",
+                  "content": "密码 *",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "textGrowth": "fixed-width",
+                  "width": 80
+                },
+                {
+                  "type": "frame",
+                  "id": "TEW6z",
+                  "name": "fPwdI",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "#FAFAFA",
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "cornerRadius": 4,
+                  "stroke": "#CFCFCF",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kXJF0",
+                      "name": "fPwdIT",
+                      "fill": "#777777",
+                      "content": "请输入密码",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5Gdra",
+              "name": "fRole",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "N74EZ",
+                  "name": "fRoleL",
+                  "fill": "#333333",
+                  "content": "登录后角色（由账号决定，不可选）",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "textGrowth": "fixed-width",
+                  "width": 280
+                },
+                {
+                  "type": "frame",
+                  "id": "nPIgU",
+                  "name": "fRoleTags",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xbXSp",
+                      "name": "rt1",
+                      "fill": "#F0F0F0",
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "cornerRadius": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Xx6U3",
+                          "name": "rt1T",
+                          "fill": "#444444",
+                          "content": "普通用户",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sfsn5",
+                      "name": "rt2",
+                      "fill": "#F0F0F0",
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "cornerRadius": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tRQxa",
+                          "name": "rt2T",
+                          "fill": "#444444",
+                          "content": "知识管理员",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bPXPF",
+                      "name": "rt3",
+                      "fill": "#F0F0F0",
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "cornerRadius": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SFiLN",
+                          "name": "rt3T",
+                          "fill": "#444444",
+                          "content": "系统管理员",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "UxCA3",
+              "name": "loginErr",
+              "fill": "#D93025",
+              "content": "⚠ 账号或密码错误 / 账号已停用（错误提示区）",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "o9vhC",
+              "name": "btnLogin",
+              "width": 376,
+              "height": 44,
+              "fill": "#223248",
+              "alignItems": "center",
+              "justifyContent": "center",
+              "cornerRadius": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xMkBx",
+                  "name": "btnLoginT",
+                  "fill": "#FFFFFF",
+                  "content": "登  录",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "4fE8K",
+              "name": "loginFoot",
+              "fill": "#8A8A8A",
+              "content": "凭据 bcrypt 加盐存储；登录态为 JWT；功能权限与数据权限分别校验。",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ],
+          "x": 180,
+          "y": 60
+        }
+      ]
+    }
+  ]
+}

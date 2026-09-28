@@ -1,0 +1,1169 @@
+{
+  "version": "2.11",
+  "fonts": [
+    {
+      "name": "原型中文",
+      "url": "fonts/kb-cn-regular.woff2"
+    },
+    {
+      "name": "原型中文",
+      "url": "fonts/kb-cn-bold.woff2",
+      "weight": 700
+    }
+  ],
+  "children": [
+    {
+      "type": "frame",
+      "id": "P1I4Q",
+      "name": "知识库管理平台·AI 智能问答工作台",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1320,
+      "fill": "#FCFCFC",
+      "clip": true,
+      "children": [
+        {
+          "type": "frame",
+          "id": "By8vs",
+          "name": "qaSide",
+          "width": 200,
+          "height": "fill_container",
+          "fill": "#F2F2F2",
+          "layout": "vertical",
+          "padding": [
+            20,
+            16
+          ],
+          "gap": 12,
+          "stroke": "#D5D5D5",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "children": [
+            {
+              "type": "text",
+              "id": "sG8ZN",
+              "name": "qaSideBrand",
+              "fill": "#223248",
+              "content": "知识库中台",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "4g7Vp",
+              "name": "qaSideItem0",
+              "width": "fill_container",
+              "height": 40,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "cornerRadius": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WjRVG",
+                  "name": "qaSideItem0T",
+                  "fill": "#666666",
+                  "content": "知识维护",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4442h",
+              "name": "qaSideItem1",
+              "width": "fill_container",
+              "height": 40,
+              "fill": "#E8ECF3",
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "cornerRadius": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wm1qJ",
+                  "name": "qaSideItem1T",
+                  "fill": "#223248",
+                  "content": "AI 问答",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1em06",
+              "name": "qaSideItem2",
+              "width": "fill_container",
+              "height": 40,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "cornerRadius": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AYR4W",
+                  "name": "qaSideItem2T",
+                  "fill": "#666666",
+                  "content": "知识沉淀",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xqFCl",
+              "name": "qaSideItem3",
+              "width": "fill_container",
+              "height": 40,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "cornerRadius": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iHYTF",
+                  "name": "qaSideItem3T",
+                  "fill": "#666666",
+                  "content": "运营看板",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5uQKY",
+              "name": "qaSideItem4",
+              "width": "fill_container",
+              "height": 40,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "cornerRadius": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7lBM9",
+                  "name": "qaSideItem4T",
+                  "fill": "#666666",
+                  "content": "系统配置",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jpohv",
+          "name": "qaMain",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            24,
+            28
+          ],
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "iPN7M",
+              "name": "qaCrumb",
+              "fill": "#7A7A7A",
+              "content": "AI 问答",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "6bJZc",
+              "name": "qaTitle",
+              "fill": "#222222",
+              "content": "AI 智能问答工作台",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "F8rQL",
+              "name": "qaRow",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tRQxa",
+                  "name": "sessCard",
+                  "width": 240,
+                  "fill": "#FFFFFF",
+                  "layout": "vertical",
+                  "padding": 12,
+                  "gap": 8,
+                  "cornerRadius": 8,
+                  "stroke": "#D9D9D9",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JTdAw",
+                      "name": "newChat",
+                      "width": "fill_container",
+                      "height": 36,
+                      "fill": "#223248",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "cornerRadius": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "a64Nj",
+                          "name": "newChatT",
+                          "fill": "#FFFFFF",
+                          "content": "＋ 新建会话",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pdm0f",
+                      "name": "sessSearch",
+                      "width": "fill_container",
+                      "height": 32,
+                      "fill": "#FAFAFA",
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "cornerRadius": 4,
+                      "stroke": "#CFCFCF",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OU56B",
+                          "name": "sessSearchT",
+                          "fill": "#777777",
+                          "content": "搜索历史会话",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "wDUeC",
+                      "name": "sessT",
+                      "fill": "#222222",
+                      "content": "历史会话",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IOLhq",
+                      "name": "s1",
+                      "width": "fill_container",
+                      "fill": "#E8ECF3",
+                      "layout": "vertical",
+                      "padding": 8,
+                      "gap": 2,
+                      "cornerRadius": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FECC7",
+                          "name": "s1T",
+                          "fill": "#333333",
+                          "content": "差旅报销标准怎么查",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "B9rYI",
+                          "name": "s1S",
+                          "fill": "#8A8A8A",
+                          "content": "今天 10:24 · 6 轮",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hiazx",
+                      "name": "s2",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "padding": 8,
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kXJF0",
+                          "name": "s2T",
+                          "fill": "#333333",
+                          "content": "年假怎么申请",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TEW6z",
+                          "name": "s2S",
+                          "fill": "#8A8A8A",
+                          "content": "昨天 16:02 · 3 轮",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xbXSp",
+                      "name": "s3",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "padding": 8,
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "N74EZ",
+                          "name": "s3T",
+                          "fill": "#333333",
+                          "content": "生鲜破损如何退款",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Xx6U3",
+                          "name": "s3S",
+                          "fill": "#8A8A8A",
+                          "content": "09-21 09:31 · 2 轮",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WAetA",
+                  "name": "qaMain",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xgKU0",
+                      "name": "chatCard",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "layout": "vertical",
+                      "padding": 16,
+                      "gap": 12,
+                      "cornerRadius": 8,
+                      "stroke": "#D9D9D9",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ornk1",
+                          "name": "chatHead",
+                          "width": "fill_container",
+                          "alignItems": "center",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "egGAg",
+                              "name": "chatT",
+                              "fill": "#222222",
+                              "content": "AI 智能问答（流式输出）",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ueqFD",
+                              "name": "chatBadge",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "z7kRP",
+                                  "name": "bdFaq",
+                                  "fill": "#F0F0F0",
+                                  "padding": [
+                                    4,
+                                    10
+                                  ],
+                                  "alignItems": "center",
+                                  "justifyContent": "center",
+                                  "cornerRadius": 4,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "42TEC",
+                                      "name": "bdFaqT",
+                                      "fill": "#444444",
+                                      "content": "FAQ 缓存未命中",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ol8wF",
+                                  "name": "bdRag",
+                                  "fill": "#E8F0FE",
+                                  "padding": [
+                                    4,
+                                    10
+                                  ],
+                                  "alignItems": "center",
+                                  "justifyContent": "center",
+                                  "cornerRadius": 4,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "jPxtY",
+                                      "name": "bdRagT",
+                                      "fill": "#1A73E8",
+                                      "content": "RAG · 已鉴权过滤",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MS4js",
+                          "name": "b_b4e55f",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "DDaQP",
+                              "name": "bh_b4e55f",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "cBlNj",
+                                  "name": "av_b4e55f",
+                                  "fill": "#223248",
+                                  "width": 26,
+                                  "height": 26
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "dAZsS",
+                                  "name": "bn_b4e55f",
+                                  "fill": "#444444",
+                                  "content": "我",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "xJZmO",
+                              "name": "bb_b4e55f",
+                              "width": "fill_container",
+                              "fill": "#E8ECF3",
+                              "padding": 12,
+                              "cornerRadius": 8,
+                              "stroke": "#D9D9D9",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "XNxod",
+                                  "name": "bt_b4e55f",
+                                  "fill": "#333333",
+                                  "content": "一线城市出差，住宿费的报销上限是多少？",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal",
+                                  "textGrowth": "fixed-width",
+                                  "width": 680,
+                                  "lineHeight": 1.6
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "n3wn4",
+                          "name": "b_a29785",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ZpPmn",
+                              "name": "bh_a29785",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "aNnMT",
+                                  "name": "av_a29785",
+                                  "fill": "#1E8E3E",
+                                  "width": 26,
+                                  "height": 26
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "9rLCD",
+                                  "name": "bn_a29785",
+                                  "fill": "#444444",
+                                  "content": "知识助手",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rFQdv",
+                              "name": "bb_a29785",
+                              "width": "fill_container",
+                              "fill": "#FFFFFF",
+                              "padding": 12,
+                              "cornerRadius": 8,
+                              "stroke": "#D9D9D9",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "aaM1D",
+                                  "name": "bt_a29785",
+                                  "fill": "#333333",
+                                  "content": "根据《差旅报销标准（2026版）》：一线城市（北京/上海/广州/深圳）住宿费上限为 600 元/晚，需提供增值税发票，按实际发生额据实报销但不超上限。",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal",
+                                  "textGrowth": "fixed-width",
+                                  "width": 680,
+                                  "lineHeight": 1.6
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "p0Arz",
+                          "name": "citeCard",
+                          "width": "fill_container",
+                          "fill": "#F7F7F7",
+                          "layout": "vertical",
+                          "padding": 10,
+                          "gap": 6,
+                          "cornerRadius": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "sfsn5",
+                              "name": "citeT",
+                              "fill": "#444444",
+                              "content": "引用来源（点击可定位原文）",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "5Gdra",
+                              "name": "cite1",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "bPXPF",
+                                  "name": "cite1n",
+                                  "fill": "#E8ECF3",
+                                  "padding": [
+                                    4,
+                                    10
+                                  ],
+                                  "alignItems": "center",
+                                  "justifyContent": "center",
+                                  "cornerRadius": 4,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "SFiLN",
+                                      "name": "cite1nT",
+                                      "fill": "#223248",
+                                      "content": "[1]",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "nPIgU",
+                                  "name": "cite1t",
+                                  "fill": "#666666",
+                                  "content": "差旅报销标准（2026版）· 第三章 住宿标准",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "4fE8K",
+                              "name": "cite2",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "xMkBx",
+                                  "name": "cite2n",
+                                  "fill": "#E8ECF3",
+                                  "padding": [
+                                    4,
+                                    10
+                                  ],
+                                  "alignItems": "center",
+                                  "justifyContent": "center",
+                                  "cornerRadius": 4,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "UxCA3",
+                                      "name": "cite2nT",
+                                      "fill": "#223248",
+                                      "content": "[2]",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "o9vhC",
+                                  "name": "cite2t",
+                                  "fill": "#666666",
+                                  "content": "财务报销制度 · 附件二 城市分级表",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "m5NK9",
+                          "name": "b_eafe9f",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "TPyHW",
+                              "name": "bh_eafe9f",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "QtaYr",
+                                  "name": "av_eafe9f",
+                                  "fill": "#223248",
+                                  "width": 26,
+                                  "height": 26
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ihafK",
+                                  "name": "bn_eafe9f",
+                                  "fill": "#444444",
+                                  "content": "我",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "HkRWk",
+                              "name": "bb_eafe9f",
+                              "width": "fill_container",
+                              "fill": "#E8ECF3",
+                              "padding": 12,
+                              "cornerRadius": 8,
+                              "stroke": "#D9D9D9",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ZdOFP",
+                                  "name": "bt_eafe9f",
+                                  "fill": "#333333",
+                                  "content": "那高管的薪酬和股权激励是怎么规定的？",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal",
+                                  "textGrowth": "fixed-width",
+                                  "width": 680,
+                                  "lineHeight": 1.6
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "O0OV1",
+                          "name": "b_6cf5ba",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "kmDt4",
+                              "name": "bh_6cf5ba",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "J9aKF",
+                                  "name": "av_6cf5ba",
+                                  "fill": "#1E8E3E",
+                                  "width": 26,
+                                  "height": 26
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "epTYX",
+                                  "name": "bn_6cf5ba",
+                                  "fill": "#444444",
+                                  "content": "知识助手",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "kDsZL",
+                              "name": "bb_6cf5ba",
+                              "width": "fill_container",
+                              "fill": "#FFFFFF",
+                              "padding": 12,
+                              "cornerRadius": 8,
+                              "stroke": "#D9D9D9",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "LXe7V",
+                                  "name": "bt_6cf5ba",
+                                  "fill": "#333333",
+                                  "content": "我在知识库中检索到了相关文档，但**您当前无权查阅**。以下是我能提供的通用信息：……",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal",
+                                  "textGrowth": "fixed-width",
+                                  "width": 680,
+                                  "lineHeight": 1.6
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rdmw7",
+                          "name": "deniedCard",
+                          "width": "fill_container",
+                          "fill": "#FEF0E3",
+                          "padding": 12,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "cornerRadius": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "taJaN",
+                              "name": "deniedIcon",
+                              "fill": "#E8710A",
+                              "content": "⚠",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "MlKxZ",
+                              "name": "deniedT",
+                              "fill": "#E8710A",
+                              "content": "检测到相关制度文档，但您当前所属部门/角色无权查阅该内容。部分参考资料因权限受限无法展示。",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal",
+                              "textGrowth": "fixed-width",
+                              "width": 660,
+                              "lineHeight": 1.5
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bGNQZ",
+                          "name": "suggestRow",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "34Jeo",
+                              "name": "sgL",
+                              "fill": "#8A8A8A",
+                              "content": "智能联想：",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Ew37z",
+                              "name": "sg1",
+                              "fill": "#F0F0F0",
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "justifyContent": "center",
+                              "cornerRadius": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "tuV9g",
+                                  "name": "sg1T",
+                                  "fill": "#444444",
+                                  "content": "住宿标准是多少",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "eHzNS",
+                              "name": "sg2",
+                              "fill": "#F0F0F0",
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "justifyContent": "center",
+                              "cornerRadius": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "58loH",
+                                  "name": "sg2T",
+                                  "fill": "#444444",
+                                  "content": "出差补贴怎么算",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "1ckN8",
+                              "name": "sg3",
+                              "fill": "#F0F0F0",
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "justifyContent": "center",
+                              "cornerRadius": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "9GLR3",
+                                  "name": "sg3T",
+                                  "fill": "#444444",
+                                  "content": "发票丢了怎么办",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rQx6d",
+                      "name": "inputBar",
+                      "width": "fill_container",
+                      "height": 56,
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FYPOT",
+                          "name": "qaInput",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FAFAFA",
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "cornerRadius": 4,
+                          "stroke": "#CFCFCF",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ksb92",
+                              "name": "qaInputT",
+                              "fill": "#777777",
+                              "content": "输入你的问题，回车发送…",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JiFN3",
+                          "name": "qaSend",
+                          "width": 90,
+                          "height": 44,
+                          "fill": "#223248",
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "cornerRadius": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "sKpAw",
+                              "name": "qaSendT",
+                              "fill": "#FFFFFF",
+                              "content": "发送",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9YK01",
+              "name": "qaNote",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RDBX6",
+                  "name": "qaNoteTitle",
+                  "fill": "#222222",
+                  "content": "关键需求标注",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "RzlbU",
+                  "name": "qaNoteWrap",
+                  "width": "fill_container",
+                  "fill": "#F7F7F7",
+                  "layout": "vertical",
+                  "padding": 16,
+                  "gap": 10,
+                  "cornerRadius": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TkIDU",
+                      "name": "qaNote0",
+                      "fill": "#444444",
+                      "content": "1. 问答前必须取当前会话的用户身份、直属部门与角色集合；未登录不可问答。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m18gN",
+                      "name": "qaNote1",
+                      "fill": "#444444",
+                      "content": "2. 召回 top_k 放大 5 倍（补偿鉴权过滤损耗），且按 doc_id **一次 IN 查询**取权限，避免 N+1。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K7jtJ",
+                      "name": "qaNote2",
+                      "fill": "#444444",
+                      "content": "3. 鉴权未通过的切片**绝不进入 Prompt**——不是“让模型别说”，而是根本不给它。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FT1Eb",
+                      "name": "qaNote3",
+                      "fill": "#444444",
+                      "content": "4. denied 非空时，必须在回答中显式标注「部分参考资料因权限受限无法展示」（PRD 2.9.4 硬要求）。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UP1Wi",
+                      "name": "qaNote4",
+                      "fill": "#444444",
+                      "content": "5. 回答必须附知识引用溯源卡片；点击可定位到原文切片。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "9tYpN",
+                      "name": "qaNote5",
+                      "fill": "#444444",
+                      "content": "6. 每轮问答异步落 qa_logs：记录 recalled / allowed / denied 三个切片列表 + Token + 分段耗时。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cYuHY",
+                      "name": "qaNote6",
+                      "fill": "#444444",
+                      "content": "7. SSE 流式订阅 /qa/stream/{task_id} 时必须校验该 task 归属当前用户，防止越权窃听。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

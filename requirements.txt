@@ -1,0 +1,45 @@
+# ===== Web 框架 =====
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+python-multipart
+
+# ===== 存储（与本班同一台虚拟机 192.168.6.170）=====
+pymilvus[model]==3.0.1
+pymongo==4.17.0
+minio==7.2.20
+
+# ===== LLM 与检索编排 =====
+langgraph
+langchain-openai
+openai
+openai-agents
+grandalf
+
+# ===== 向量与模型 =====
+sentence-transformers
+transformers
+huggingface_hub
+modelscope
+
+# ===== 文档解析（PDF 转 Markdown / 版面处理）=====
+mineru[all]
+
+# ===== 2.9 新增：原项目只支持 pdf/md，2.9 要求 Word 与 TXT =====
+python-docx
+mammoth
+pdfplumber
+
+# ===== 数值 =====
+numpy
+pandas
+
+# ===== 鉴权（RBAC / 四维数据权限）=====
+PyJWT
+passlib[bcrypt]
+
+# ===== 测试 =====
+pytest
+httpx

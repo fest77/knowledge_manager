@@ -1,0 +1,24 @@
+# knowledge_manager
+
+知识库管理平台（2.9）。覆盖文档多格式解析切片、全局/部门/角色/个人四维数据权限、
+AI 鉴权检索问答、高频 FAQ 聚类沉淀与知识缺口识别。
+
+## 环境
+- Python 3.12.8（`.venv`，独立虚拟环境）
+- 依赖：`requirements.txt`（PyPI/清华源）+ `requirements-torch.txt`（PyTorch 官方 cu118）
+- pip 源：清华（已写入 `.venv\pip.ini`）
+
+## 启动
+```
+.venv\Scripts\python.exe -m uvicorn main:app --reload --port 8102
+```
+打开 http://127.0.0.1:8102/docs ，或访问 `/health` 查看各依赖与 GPU 状态。
+
+## 配置
+`.env` 原样复制自 `shopkeeper_brain`，与本班其他项目共用同一台虚拟机
+`192.168.6.170`（Milvus 19530 / MongoDB 27017 / MinIO 9000）。
+
+## 与 shopkeeper_brain 的关系
+本项目**未复制源代码**，只复制了依赖清单与配置地址。
+原项目 venv 是 Python 3.10，与本项目的 3.12 不兼容，因此依赖全部重装。
+参考实现位置：`..\shopkeeper_brain\knowledge\`（只读参考，勿改动）。

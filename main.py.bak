@@ -1,0 +1,58 @@
+# -*- coding: utf-8 -*-
+"""knowledge_manager - 知识库管理平台（2.9）
+
+最小可运行入口：先确认环境通了，导入 / 检索 / 权限等业务代码后续再往上加。
+启动：  .venv\Scripts\python.exe -m uvicorn main:app --reload --port 8102
+"""
+from __future__ import annotations
+
+import os
+from datetime import datetime
+
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI(title="knowledge_manager", version="0.1.0",
+              description="知识库管理平台 - 导入解析 / 向量检索 / 四维权限 / AI 鉴权问答")
+app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+
+
+@app.get("/health")
+def health() -> dict:
+    """健康检查：回报依赖是否可导入，以及外部存储配置。"""
+    import importlib
+
+    deps = {}
+    for mod in ("fastapi", "pymilvus", "pymongo", "minio", "langgraph",
+                "sentence_transformers", "torch", "mineru"):
+        try:
+            m = importlib.import_module(mod)
+            deps[mod] = getattr(m, "__version__", "installed")
+        except Exception as e:
+            deps[mod] = f"MISSING ({type(e).__name__})"
+
+    cuda = "unknown"
+    try:
+        import torch
+        cuda = f"available={torch.cuda.is_available()}"
+    except Exception:
+        cuda = "torch 未安装"
+
+    return {
+        "app": "knowledge_manager",
+        "status": "ok",
+        "time": datetime.now().isoformat(timespec="seconds"),
+        "deps": deps,
+        "torch_cuda": cuda,
+        "storage": {
+            "milvus_url": os.getenv("MILVUS_URL", "(未配置)"),
+            "mongo_url": os.getenv("MONGO_URL", "(未配置)"),
+            "mongo_db": os.getenv("MONGO_DB_NAME", "(未配置)"),
+            "minio_endpoint": os.getenv("MINIO_ENDPOINT", "(未配置)"),
+        },
+    }
+
+
+@app.get("/")
+def index() -> dict:
+    return {"message": "knowledge_manager is running", "docs": "/docs"}

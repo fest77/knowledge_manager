@@ -1,0 +1,2526 @@
+{
+  "version": "2.11",
+  "fonts": [
+    {
+      "name": "原型中文",
+      "url": "fonts/kb-cn-regular.woff2"
+    },
+    {
+      "name": "原型中文",
+      "url": "fonts/kb-cn-bold.woff2",
+      "weight": 700
+    }
+  ],
+  "children": [
+    {
+      "type": "frame",
+      "id": "kdRPh",
+      "name": "知识库管理平台·知识沉淀与运营管理",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1620,
+      "fill": "#FCFCFC",
+      "clip": true,
+      "children": [
+        {
+          "type": "frame",
+          "id": "Rrix6",
+          "name": "faqSide",
+          "width": 200,
+          "height": "fill_container",
+          "fill": "#F2F2F2",
+          "layout": "vertical",
+          "padding": [
+            20,
+            16
+          ],
+          "gap": 12,
+          "stroke": "#D5D5D5",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "children": [
+            {
+              "type": "text",
+              "id": "n0q3a",
+              "name": "faqSideBrand",
+              "fill": "#223248",
+              "content": "知识库中台",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "kJpk1",
+              "name": "faqSideItem0",
+              "width": "fill_container",
+              "height": 40,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "cornerRadius": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cvq2j",
+                  "name": "faqSideItem0T",
+                  "fill": "#666666",
+                  "content": "知识维护",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "frvNc",
+              "name": "faqSideItem1",
+              "width": "fill_container",
+              "height": 40,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "cornerRadius": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "e4mvP",
+                  "name": "faqSideItem1T",
+                  "fill": "#666666",
+                  "content": "AI 问答",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nMQtj",
+              "name": "faqSideItem2",
+              "width": "fill_container",
+              "height": 40,
+              "fill": "#E8ECF3",
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "cornerRadius": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MVM9k",
+                  "name": "faqSideItem2T",
+                  "fill": "#223248",
+                  "content": "知识沉淀",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aMutQ",
+              "name": "faqSideItem3",
+              "width": "fill_container",
+              "height": 40,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "cornerRadius": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eKpUH",
+                  "name": "faqSideItem3T",
+                  "fill": "#666666",
+                  "content": "运营看板",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "N58nv",
+              "name": "faqSideItem4",
+              "width": "fill_container",
+              "height": 40,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "cornerRadius": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ohjx3",
+                  "name": "faqSideItem4T",
+                  "fill": "#666666",
+                  "content": "系统配置",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LSQgh",
+          "name": "faqMain",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            24,
+            28
+          ],
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "QsEpc",
+              "name": "faqCrumb",
+              "fill": "#7A7A7A",
+              "content": "知识沉淀",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "2oro6",
+              "name": "faqTitle",
+              "fill": "#222222",
+              "content": "知识沉淀与运营管理",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "m5NK9",
+              "name": "candCard",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "layout": "vertical",
+              "padding": 16,
+              "gap": 12,
+              "cornerRadius": 8,
+              "stroke": "#D9D9D9",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "B9rYI",
+                  "name": "cdTb",
+                  "width": "fill_container",
+                  "height": 56,
+                  "padding": [
+                    0,
+                    0
+                  ],
+                  "gap": 12,
+                  "alignItems": "center",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wDUeC",
+                      "name": "cdTbL",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "a64Nj",
+                          "name": "cdT",
+                          "fill": "#222222",
+                          "content": "FAQ 挖掘与审核发布",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FECC7",
+                      "name": "cdTbR",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JTdAw",
+                          "name": "cdHint",
+                          "fill": "#8A8A8A",
+                          "content": "近 30 天日志 · 频次阈值 ≥20 · 聚类相似度 ≥0.85",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "pdm0f",
+                          "name": "cdMine",
+                          "width": 110,
+                          "height": 36,
+                          "fill": "#223248",
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "cornerRadius": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "OU56B",
+                              "name": "cdMineT",
+                              "fill": "#FFFFFF",
+                              "content": "▶ 立即挖掘",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HkRWk",
+                  "name": "candTbl",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "cornerRadius": 6,
+                  "stroke": "#D9D9D9",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "5Gdra",
+                      "name": "candTblHead",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "#FAFAFA",
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "kXJF0",
+                          "name": "candTblH0",
+                          "width": 393,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "IOLhq",
+                              "name": "candTblH0T",
+                              "fill": "#555555",
+                              "content": "聚类问题簇",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hiazx",
+                          "name": "candTblH1",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "TEW6z",
+                              "name": "candTblH1T",
+                              "fill": "#555555",
+                              "content": "聚合频次",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Xx6U3",
+                          "name": "candTblH2",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "N74EZ",
+                              "name": "candTblH2T",
+                              "fill": "#555555",
+                              "content": "关联知识单元",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tRQxa",
+                          "name": "candTblH3",
+                          "width": 243,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xbXSp",
+                              "name": "candTblH3T",
+                              "fill": "#555555",
+                              "content": "推荐标准答案",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SFiLN",
+                          "name": "candTblH4",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "sfsn5",
+                              "name": "candTblH4T",
+                              "fill": "#555555",
+                              "content": "置信度",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nPIgU",
+                          "name": "candTblH5",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "bPXPF",
+                              "name": "candTblH5T",
+                              "fill": "#555555",
+                              "content": "操作",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eHzNS",
+                      "name": "candTblR0",
+                      "width": "fill_container",
+                      "height": 58,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "stroke": "#D9D9D9",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "xMkBx",
+                          "name": "candTblR0C0",
+                          "width": 393,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "UxCA3",
+                              "name": "candTblR0C0T",
+                              "fill": "#333333",
+                              "content": "生鲜食品破损如何申请退款 / 水果烂了怎么赔 / 到货坏了怎么办",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "4fE8K",
+                          "name": "candTblR0C1",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "o9vhC",
+                              "name": "candTblR0C1T",
+                              "fill": "#666666",
+                              "content": "53 次",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "taJaN",
+                          "name": "candTblR0C2",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "p0Arz",
+                              "name": "candTblR0C2T",
+                              "fill": "#666666",
+                              "content": "客服退换货处理规范",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rdmw7",
+                          "name": "candTblR0C3",
+                          "width": 243,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "MlKxZ",
+                              "name": "candTblR0C3T",
+                              "fill": "#666666",
+                              "content": "收货后 24 小时内上传破损照片，…",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tuV9g",
+                          "name": "candTblR0C4",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "34Jeo",
+                              "name": "candTblR0C4T",
+                              "fill": "#666666",
+                              "content": "0.91",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "58loH",
+                          "name": "candTblR0C5",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Ew37z",
+                              "name": "candTblR0C5T",
+                              "fill": "#666666",
+                              "content": "采纳编辑 / 发布 / 驳回",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DDaQP",
+                      "name": "candTblR1",
+                      "width": "fill_container",
+                      "height": 58,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "stroke": "#D9D9D9",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "1ckN8",
+                          "name": "candTblR1C0",
+                          "width": 393,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "9GLR3",
+                              "name": "candTblR1C0T",
+                              "fill": "#333333",
+                              "content": "海外直邮保税仓清关延误要多久 / 清关慢",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "egGAg",
+                          "name": "candTblR1C1",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "bGNQZ",
+                              "name": "candTblR1C1T",
+                              "fill": "#666666",
+                              "content": "27 次",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "z7kRP",
+                          "name": "candTblR1C2",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "42TEC",
+                              "name": "candTblR1C2T",
+                              "fill": "#666666",
+                              "content": "（未命中任何文档）",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ol8wF",
+                          "name": "candTblR1C3",
+                          "width": 243,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jPxtY",
+                              "name": "candTblR1C3T",
+                              "fill": "#666666",
+                              "content": "—（建议先补文档）",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ornk1",
+                          "name": "candTblR1C4",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ueqFD",
+                              "name": "candTblR1C4T",
+                              "fill": "#666666",
+                              "content": "0.42",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "dAZsS",
+                          "name": "candTblR1C5",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "cBlNj",
+                              "name": "candTblR1C5T",
+                              "fill": "#666666",
+                              "content": "驳回 / 转建文档",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZdOFP",
+                      "name": "candTblR2",
+                      "width": "fill_container",
+                      "height": 58,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "stroke": "#D9D9D9",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "xJZmO",
+                          "name": "candTblR2C0",
+                          "width": 393,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "XNxod",
+                              "name": "candTblR2C0T",
+                              "fill": "#333333",
+                              "content": "年假没休完能不能折现 / 年假补偿",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aNnMT",
+                          "name": "candTblR2C1",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "MS4js",
+                              "name": "candTblR2C1T",
+                              "fill": "#666666",
+                              "content": "24 次",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZpPmn",
+                          "name": "candTblR2C2",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "9rLCD",
+                              "name": "candTblR2C2T",
+                              "fill": "#666666",
+                              "content": "员工休假管理规定",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rFQdv",
+                          "name": "candTblR2C3",
+                          "width": 243,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aaM1D",
+                              "name": "candTblR2C3T",
+                              "fill": "#666666",
+                              "content": "当年未休年假可结转至次年 3 月底，…",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QtaYr",
+                          "name": "candTblR2C4",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "n3wn4",
+                              "name": "candTblR2C4T",
+                              "fill": "#666666",
+                              "content": "0.88",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TPyHW",
+                          "name": "candTblR2C5",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ihafK",
+                              "name": "candTblR2C5T",
+                              "fill": "#666666",
+                              "content": "采纳编辑 / 发布 / 驳回",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "po0Dj",
+              "name": "pubCard",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "layout": "vertical",
+              "padding": 16,
+              "gap": 12,
+              "cornerRadius": 8,
+              "stroke": "#D9D9D9",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FYPOT",
+                  "name": "pbTb",
+                  "width": "fill_container",
+                  "height": 56,
+                  "padding": [
+                    0,
+                    0
+                  ],
+                  "gap": 12,
+                  "alignItems": "center",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xgKU0",
+                      "name": "pbTbL",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "J9aKF",
+                          "name": "pbT",
+                          "fill": "#222222",
+                          "content": "已发布 FAQ 知识库",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kmDt4",
+                          "name": "pbSearch",
+                          "width": 200,
+                          "height": 40,
+                          "fill": "#FAFAFA",
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "cornerRadius": 4,
+                          "stroke": "#CFCFCF",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "epTYX",
+                              "name": "pbSearchT",
+                              "fill": "#777777",
+                              "content": "检索问答对",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ksb92",
+                      "name": "pbTbR",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LXe7V",
+                          "name": "pbStat",
+                          "fill": "#666666",
+                          "content": "共 36 条 · 缓存已生效 34 条",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "O0OV1",
+                          "name": "pbCache",
+                          "width": 110,
+                          "height": 36,
+                          "fill": "#F0F0F0",
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "cornerRadius": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kDsZL",
+                              "name": "pbCacheT",
+                              "fill": "#222222",
+                              "content": "重建缓存",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oSAyA",
+                  "name": "pubTbl",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "cornerRadius": 6,
+                  "stroke": "#D9D9D9",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "RDBX6",
+                      "name": "pubTblHead",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "#FAFAFA",
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "JiFN3",
+                          "name": "pubTblH0",
+                          "width": 184,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "sKpAw",
+                              "name": "pubTblH0T",
+                              "fill": "#555555",
+                              "content": "标准问法",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WAetA",
+                          "name": "pubTblH1",
+                          "width": 358,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "rQx6d",
+                              "name": "pubTblH1T",
+                              "fill": "#555555",
+                              "content": "答案摘要",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TkIDU",
+                          "name": "pubTblH2",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "F8rQL",
+                              "name": "pubTblH2T",
+                              "fill": "#555555",
+                              "content": "关联文档",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "K7jtJ",
+                          "name": "pubTblH3",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "m18gN",
+                              "name": "pubTblH3T",
+                              "fill": "#555555",
+                              "content": "命中次数",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "UP1Wi",
+                          "name": "pubTblH4",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "FT1Eb",
+                              "name": "pubTblH4T",
+                              "fill": "#555555",
+                              "content": "缓存生效",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cYuHY",
+                          "name": "pubTblH5",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "9tYpN",
+                              "name": "pubTblH5T",
+                              "fill": "#555555",
+                              "content": "操作",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iHYTF",
+                      "name": "pubTblR0",
+                      "width": "fill_container",
+                      "height": 46,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "stroke": "#D9D9D9",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "9YK01",
+                          "name": "pubTblR0C0",
+                          "width": 184,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "RzlbU",
+                              "name": "pubTblR0C0T",
+                              "fill": "#333333",
+                              "content": "生鲜食品破损如何申请退款",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "6bJZc",
+                          "name": "pubTblR0C1",
+                          "width": 358,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "iPN7M",
+                              "name": "pubTblR0C1T",
+                              "fill": "#666666",
+                              "content": "24 小时内上传破损照片，审核通过后 48 小时原路退款",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "sG8ZN",
+                          "name": "pubTblR0C2",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jpohv",
+                              "name": "pubTblR0C2T",
+                              "fill": "#666666",
+                              "content": "客服退换货处理规范",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "4g7Vp",
+                          "name": "pubTblR0C3",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WjRVG",
+                              "name": "pubTblR0C3T",
+                              "fill": "#666666",
+                              "content": "128",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "4442h",
+                          "name": "pubTblR0C4",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wm1qJ",
+                              "name": "pubTblR0C4T",
+                              "fill": "#666666",
+                              "content": "已生效",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "1em06",
+                          "name": "pubTblR0C5",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "AYR4W",
+                              "name": "pubTblR0C5T",
+                              "fill": "#666666",
+                              "content": "编辑 / 停用 / 删除",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QIbxE",
+                      "name": "pubTblR1",
+                      "width": "fill_container",
+                      "height": 46,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "stroke": "#D9D9D9",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "7lBM9",
+                          "name": "pubTblR1C0",
+                          "width": 184,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xqFCl",
+                              "name": "pubTblR1C0T",
+                              "fill": "#333333",
+                              "content": "差旅住宿费报销上限是多少",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "By8vs",
+                          "name": "pubTblR1C1",
+                          "width": 358,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "5uQKY",
+                              "name": "pubTblR1C1T",
+                              "fill": "#666666",
+                              "content": "一线城市 600 元/晚，二线 450 元/晚，据实报销不超上限",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zggqY",
+                          "name": "pubTblR1C2",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "P1I4Q",
+                              "name": "pubTblR1C2T",
+                              "fill": "#666666",
+                              "content": "差旅报销标准（2026版）",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Kkrtv",
+                          "name": "pubTblR1C3",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DLC4l",
+                              "name": "pubTblR1C3T",
+                              "fill": "#666666",
+                              "content": "96",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "B2AKs",
+                          "name": "pubTblR1C4",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "CDrjL",
+                              "name": "pubTblR1C4T",
+                              "fill": "#666666",
+                              "content": "已生效",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "k1rkI",
+                          "name": "pubTblR1C5",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "XHjWZ",
+                              "name": "pubTblR1C5T",
+                              "fill": "#666666",
+                              "content": "编辑 / 停用 / 删除",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sy6Ml",
+                      "name": "pubTblR2",
+                      "width": "fill_container",
+                      "height": 46,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "stroke": "#D9D9D9",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "M7YHm",
+                          "name": "pubTblR2C0",
+                          "width": 184,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "bNwzS",
+                              "name": "pubTblR2C0T",
+                              "fill": "#333333",
+                              "content": "年假未休完如何处理",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ryeMr",
+                          "name": "pubTblR2C1",
+                          "width": 358,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jdMpe",
+                              "name": "pubTblR2C1T",
+                              "fill": "#666666",
+                              "content": "可结转至次年 3 月底，逾期视为放弃",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "0iE6x",
+                          "name": "pubTblR2C2",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "AN0Ry",
+                              "name": "pubTblR2C2T",
+                              "fill": "#666666",
+                              "content": "员工休假管理规定",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "5pQ9y",
+                          "name": "pubTblR2C3",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qCQzo",
+                              "name": "pubTblR2C3T",
+                              "fill": "#666666",
+                              "content": "61",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Sb2zO",
+                          "name": "pubTblR2C4",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "0MFCd",
+                              "name": "pubTblR2C4T",
+                              "fill": "#666666",
+                              "content": "已生效",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SweOR",
+                          "name": "pubTblR2C5",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "tC95P",
+                              "name": "pubTblR2C5T",
+                              "fill": "#666666",
+                              "content": "编辑 / 停用 / 删除",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bvDGJ",
+                      "name": "pubTblR3",
+                      "width": "fill_container",
+                      "height": 46,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "stroke": "#D9D9D9",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "rCZ6a",
+                          "name": "pubTblR3C0",
+                          "width": 184,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SpPBf",
+                              "name": "pubTblR3C0T",
+                              "fill": "#333333",
+                              "content": "入职体检费用能否报销",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "4hTBt",
+                          "name": "pubTblR3C1",
+                          "width": 358,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "F7TRY",
+                              "name": "pubTblR3C1T",
+                              "fill": "#666666",
+                              "content": "试用期满后凭发票报销，上限 500 元",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "iKmGY",
+                          "name": "pubTblR3C2",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jhtK1",
+                              "name": "pubTblR3C2T",
+                              "fill": "#666666",
+                              "content": "员工入职指引",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rlP3r",
+                          "name": "pubTblR3C3",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "gTA1H",
+                              "name": "pubTblR3C3T",
+                              "fill": "#666666",
+                              "content": "18",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "8WMKp",
+                          "name": "pubTblR3C4",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "YVyh0",
+                              "name": "pubTblR3C4T",
+                              "fill": "#666666",
+                              "content": "已停用",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "B3C5l",
+                          "name": "pubTblR3C5",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "2CEeI",
+                              "name": "pubTblR3C5T",
+                              "fill": "#666666",
+                              "content": "编辑 / 启用 / 删除",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tJD1E",
+              "name": "gapCard",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "layout": "vertical",
+              "padding": 16,
+              "gap": 12,
+              "cornerRadius": 8,
+              "stroke": "#D9D9D9",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AhA1u",
+                  "name": "gpTb",
+                  "width": "fill_container",
+                  "height": 56,
+                  "padding": [
+                    0,
+                    0
+                  ],
+                  "gap": 12,
+                  "alignItems": "center",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Tq6PF",
+                      "name": "gpTbL",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "COG4q",
+                          "name": "gpT",
+                          "fill": "#222222",
+                          "content": "知识缺口清单",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wxDZj",
+                      "name": "gpTbR",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "cSP9L",
+                          "name": "gpDept",
+                          "width": 130,
+                          "height": 36,
+                          "fill": "#FAFAFA",
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "justifyContent": "space_between",
+                          "cornerRadius": 4,
+                          "stroke": "#CFCFCF",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "0gGfi",
+                              "name": "gpDeptT",
+                              "fill": "#444444",
+                              "content": "全部部门 ▾",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "VGxSr",
+                              "name": "gpDeptI",
+                              "fill": "#666666",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "chevron-down",
+                              "iconFontFamily": "lucide"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "QYPTf",
+                          "name": "gpHint",
+                          "fill": "#8A8A8A",
+                          "content": "判定：最高相似度 < 0.75 · 或未召回任何切片",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "A59hU",
+                          "name": "gpExport",
+                          "width": 100,
+                          "height": 36,
+                          "fill": "#F0F0F0",
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "cornerRadius": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "IEXbQ",
+                              "name": "gpExportT",
+                              "fill": "#222222",
+                              "content": "导出清单",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fimLZ",
+                  "name": "gapTbl",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "cornerRadius": 6,
+                  "stroke": "#D9D9D9",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "2arpz",
+                      "name": "gapTblHead",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "#FAFAFA",
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "8VUh5",
+                          "name": "gapTblH0",
+                          "width": 210,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "hLsD3",
+                              "name": "gapTblH0T",
+                              "fill": "#555555",
+                              "content": "未命中提问",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Dsz7a",
+                          "name": "gapTblH1",
+                          "width": 110,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Zd1Xv",
+                              "name": "gapTblH1T",
+                              "fill": "#555555",
+                              "content": "提问部门",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZI27I",
+                          "name": "gapTblH2",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Fiu0Y",
+                              "name": "gapTblH2T",
+                              "fill": "#555555",
+                              "content": "近期频次",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BErhj",
+                          "name": "gapTblH3",
+                          "width": 90,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lc98b",
+                              "name": "gapTblH3T",
+                              "fill": "#555555",
+                              "content": "最高相似度",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "1izlR",
+                          "name": "gapTblH4",
+                          "width": 170,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Fw173",
+                              "name": "gapTblH4T",
+                              "fill": "#555555",
+                              "content": "建议创建分类",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IMgKU",
+                          "name": "gapTblH5",
+                          "width": 120,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "oVSvg",
+                              "name": "gapTblH5T",
+                              "fill": "#555555",
+                              "content": "操作",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "axFi4",
+                      "name": "gapTblR0",
+                      "width": "fill_container",
+                      "height": 40,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "stroke": "#D9D9D9",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "z7EAW",
+                          "name": "gapTblR0C0",
+                          "width": 210,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ac1JV",
+                              "name": "gapTblR0C0T",
+                              "fill": "#333333",
+                              "content": "海外直邮保税仓清关延误要多久",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tR7va",
+                          "name": "gapTblR0C1",
+                          "width": 110,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "TiKFL",
+                              "name": "gapTblR0C1T",
+                              "fill": "#666666",
+                              "content": "客户服务",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "dM4NE",
+                          "name": "gapTblR0C2",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "2cPat",
+                              "name": "gapTblR0C2T",
+                              "fill": "#666666",
+                              "content": "27",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ywFKM",
+                          "name": "gapTblR0C3",
+                          "width": 90,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "9IpE4",
+                              "name": "gapTblR0C3T",
+                              "fill": "#666666",
+                              "content": "0.42",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kKFGs",
+                          "name": "gapTblR0C4",
+                          "width": 170,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qjnf4",
+                              "name": "gapTblR0C4T",
+                              "fill": "#666666",
+                              "content": "客户服务 / 跨境物流",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "6NUxy",
+                          "name": "gapTblR0C5",
+                          "width": 120,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "QbPDP",
+                              "name": "gapTblR0C5T",
+                              "fill": "#666666",
+                              "content": "一键转建文档",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "X1swh",
+                      "name": "gapTblR1",
+                      "width": "fill_container",
+                      "height": 40,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "stroke": "#D9D9D9",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "E8Zun",
+                          "name": "gapTblR1C0",
+                          "width": 210,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "EizeA",
+                              "name": "gapTblR1C0T",
+                              "fill": "#333333",
+                              "content": "供应商对账周期是多久",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Tg5E5",
+                          "name": "gapTblR1C1",
+                          "width": 110,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Jc5Ag",
+                              "name": "gapTblR1C1T",
+                              "fill": "#666666",
+                              "content": "财务部",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mXOCR",
+                          "name": "gapTblR1C2",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "h1LE8",
+                              "name": "gapTblR1C2T",
+                              "fill": "#666666",
+                              "content": "14",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SlfFq",
+                          "name": "gapTblR1C3",
+                          "width": 90,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "iGjOb",
+                              "name": "gapTblR1C3T",
+                              "fill": "#666666",
+                              "content": "0.61",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aLTJN",
+                          "name": "gapTblR1C4",
+                          "width": 170,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mxhPB",
+                              "name": "gapTblR1C4T",
+                              "fill": "#666666",
+                              "content": "财务报销 / 结算流程",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mWePl",
+                          "name": "gapTblR1C5",
+                          "width": 120,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zctuL",
+                              "name": "gapTblR1C5T",
+                              "fill": "#666666",
+                              "content": "一键转建文档",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lkmGJ",
+                      "name": "gapTblR2",
+                      "width": "fill_container",
+                      "height": 40,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "stroke": "#D9D9D9",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "lCToQ",
+                          "name": "gapTblR2C0",
+                          "width": 210,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "C8YpR",
+                              "name": "gapTblR2C0T",
+                              "fill": "#333333",
+                              "content": "新员工社保何时开始缴纳",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AoDZ2",
+                          "name": "gapTblR2C1",
+                          "width": 110,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "RhkQ4",
+                              "name": "gapTblR2C1T",
+                              "fill": "#666666",
+                              "content": "人力资源部",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "3JUN3",
+                          "name": "gapTblR2C2",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "dqhyF",
+                              "name": "gapTblR2C2T",
+                              "fill": "#666666",
+                              "content": "11",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VAhDV",
+                          "name": "gapTblR2C3",
+                          "width": 90,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DEpsL",
+                              "name": "gapTblR2C3T",
+                              "fill": "#666666",
+                              "content": "0.68",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "eGDaY",
+                          "name": "gapTblR2C4",
+                          "width": 170,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kKBHb",
+                              "name": "gapTblR2C4T",
+                              "fill": "#666666",
+                              "content": "人力资源 / 入离职",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ilOk2",
+                          "name": "gapTblR2C5",
+                          "width": 120,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "1EA8v",
+                              "name": "gapTblR2C5T",
+                              "fill": "#666666",
+                              "content": "一键转建文档",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "swUbx",
+                      "name": "gapTblR3",
+                      "width": "fill_container",
+                      "height": 40,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "stroke": "#D9D9D9",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ElEbw",
+                          "name": "gapTblR3C0",
+                          "width": 210,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "PSWjA",
+                              "name": "gapTblR3C0T",
+                              "fill": "#333333",
+                              "content": "设备借用申请流程",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aaee6",
+                          "name": "gapTblR3C1",
+                          "width": 110,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aOcMu",
+                              "name": "gapTblR3C1T",
+                              "fill": "#666666",
+                              "content": "技术部",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "0H0tH",
+                          "name": "gapTblR3C2",
+                          "width": 80,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ZCkWs",
+                              "name": "gapTblR3C2T",
+                              "fill": "#666666",
+                              "content": "8",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "apYKv",
+                          "name": "gapTblR3C3",
+                          "width": 90,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qA5GT",
+                              "name": "gapTblR3C3T",
+                              "fill": "#666666",
+                              "content": "0.55",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fXp8X",
+                          "name": "gapTblR3C4",
+                          "width": 170,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "eklW3",
+                              "name": "gapTblR3C4T",
+                              "fill": "#666666",
+                              "content": "公司制度 / 资产管理",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mQbHT",
+                          "name": "gapTblR3C5",
+                          "width": 120,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "cB8tw",
+                              "name": "gapTblR3C5T",
+                              "fill": "#666666",
+                              "content": "一键转建文档",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ys8jd",
+              "name": "faqNote",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SL5H6",
+                  "name": "faqNoteTitle",
+                  "fill": "#222222",
+                  "content": "关键需求标注",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "rU7oo",
+                  "name": "faqNoteWrap",
+                  "width": "fill_container",
+                  "fill": "#F7F7F7",
+                  "layout": "vertical",
+                  "padding": 16,
+                  "gap": 10,
+                  "cornerRadius": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uOK8M",
+                      "name": "faqNote0",
+                      "fill": "#444444",
+                      "content": "1. 挖掘引擎定时分析 qa_logs，对高频相似提问做语义聚类（embedding + 相似度阈值），生成候选 FAQ。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tofPJ",
+                      "name": "faqNote1",
+                      "fill": "#444444",
+                      "content": "2. 候选卡片的「关联知识单元」从该簇问答的 allowed_chunks 反推；若整簇都没命中任何文档，说明是知识缺口。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JNUlr",
+                      "name": "faqNote2",
+                      "fill": "#444444",
+                      "content": "3. 审核时标准问法与答案**可人工改写**，与候选解耦保存（faqs.question 与 faq_candidates.representative_question 是两套字段）。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ptHWJ",
+                      "name": "faqNote3",
+                      "fill": "#444444",
+                      "content": "4. 发布后 FAQ 写入内存缓存，新问答先做**向量相似匹配**（≥0.92 直出），不依赖字符串相等。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JgLr5",
+                      "name": "faqNote4",
+                      "fill": "#444444",
+                      "content": "5. 「缓存生效」开关可单独停用某条 FAQ 的缓存命中，停用后该问题回到 RAG 检索路径。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "96d8t",
+                      "name": "faqNote5",
+                      "fill": "#444444",
+                      "content": "6. 知识缺口按 normalized_key 合并计数，避免同一问题被拆成多条；支持一键转建为知识补充任务。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
