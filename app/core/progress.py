@@ -39,6 +39,8 @@ active_progress()        # {"BGE-M3 加载": 12.3}  —— `/health` 用
 """
 from __future__ import annotations
 
+import os
+import sys
 import threading
 import time
 from typing import Any
@@ -49,6 +51,26 @@ from app.core.logging import logger
 #: `/health` 只读它，**绝不**通过它去触发加载。
 _ACTIVE: dict[str, float] = {}
 _ACTIVE_LOCK = threading.Lock()
+
+
+def _console_echo_enabled() -> bool:
+    """进度要不要**同时**打到 stderr（不受日志级别影响）。
+
+    为什么不能只靠 `logger.info`：测试进程把 `KM_LOG_LEVEL` 设成 `WARNING`，
+    INFO 级进度会被整体过滤掉——于是"等 40 秒"又变成"看不见"。
+    规则：显式 `KM_PROGRESS=1` 一定打；显式 `KM_PROGRESS=0` 一定不打；
+    否则**只在交互式终端**打（CI/管道里不刷屏）。
+    pytest 下还需 `-s`，否则 stderr 会被 capture 吞掉。
+    """
+    flag = os.getenv("KM_PROGRESS", "").strip().lower()
+    if flag in ("1", "true", "yes", "on"):
+        return True
+    if flag in ("0", "false", "no", "off"):
+        return False
+    try:
+        return bool(sys.stderr.isatty())
+    except Exception:                                         # noqa: BLE001
+        return False
 
 
 def active_progress() -> dict[str, float]:
@@ -142,9 +164,24 @@ class Progress:
             self._log(f"仍在进行：{self._stage}（已用 {self.elapsed}s）")
 
     def _log(self, text: str) -> None:
-        """打一行进度。**任何异常都吞掉**：显示坏了不能让业务跟着坏。"""
+        """打一行进度：先走日志（带级别控制），再按需回声到终端。
+
+        **任何异常都吞掉**：显示坏了不能让业务跟着坏。
+
+        为什么终端回声不走 `print()`：这是一条**进度指示**（同类东西是 tqdm 的进度条），
+        不是日志 —— 它必须绕过日志级别，否则测试进程把 `KM_LOG_LEVEL` 调到 `WARNING`
+        时，40 秒的加载又变成"看不见"。所以直接写 `sys.stderr`，
+        与"app/ 里用 logger 而不是 print"的规约并不冲突。
+        """
+        line = f"[{self.label}] {text}"
         try:
-            logger.info("[%s] %s", self.label, text)
+            logger.info(line)
+        except Exception:                                     # noqa: BLE001
+            pass
+        try:
+            if _console_echo_enabled():
+                sys.stderr.write(line + "\n")
+                sys.stderr.flush()
         except Exception:                                     # noqa: BLE001
             pass
 

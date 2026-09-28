@@ -111,7 +111,7 @@ http://127.0.0.1:8102/health 看各依赖连通性。
 ```
 .venv\Scripts\python.exe -m pytest -q
 ```
-共 **659 个用例**，使用独立测试库 `kb001_test`（每个用例前清库重建，不污染 `kb001`）：
+共 **664 个用例**，使用独立测试库 `kb001_test`（每个用例前清库重建，不污染 `kb001`）：
 
 | 模块 | 文件（用例数） |
 |---|---|
@@ -121,10 +121,11 @@ http://127.0.0.1:8102/health 看各依赖连通性。
 | 07 / 08 | `test_faq_service` 29 · `test_gap_service` 28 |
 | **09** | **`test_metric_service` 61**（UV 口径 / 降采样 / 降级 / 权限矩阵 / 汇总幂等） |
 | 10 | `test_audit_actions` 23 · `test_audit_redaction` 13 · `test_audit_service` 30 · `test_audit_api` 41 · `test_audit_integration` 15 |
+| 公共基础 00 | `test_core_progress` 5（模型加载进度：可见 / 可查 / 不泄漏线程） |
 | 前端与端到端 | `test_frontend_shell` 28 · `test_e2e_smoke` 1 |
 
 另有辅助校验器（在 DSH 工作区 `knowledge/03_校验脚本/`）：
-`_slice_selflint.py`（AST 静态检查，124 个 `.py` → `无问题 ✔`）、
+`_slice_selflint.py`（AST 静态检查，126 个 `.py` → `无问题 ✔`）、
 `_slice_consistency.py`（代码 ↔ Spec 一致性 → `检查通过 ✔`）。
 
 > **逐步测试教程见 [`docs/测试教程.md`](docs/测试教程.md)** —— 含每条命令的期望输出与验收清单
@@ -142,6 +143,7 @@ app/
 ├── main.py              # 应用装配（全局功能权限依赖 + 各模块索引/周期任务/路由）
 ├── audit/actions.py     # ★ 动作字典：全平台动作名的唯一定义源（40 个）
 ├── core/                # 配置 / 错误码（218 个）/ 枚举 / 日志 / 安全 / 统一响应 / 权限声明
+│                        # progress.py：模型加载的进度心跳（每 5 秒一行 + /health 的 loading 态）
 ├── infra/               # mongo.py · milvus.py · minio.py · llm.py · sse.py
 │                        # audit_spool.py（补偿文件）· scheduler.py（周期任务）
 ├── repositories/        # 集合读写（一集合一归属模块，ER-02）
@@ -161,7 +163,7 @@ scripts/
 ├── acceptance_module02 / 04 / 09 / 10.py   # 单模块真机验收（真实 HTTP）
 ├── e2e_user_journey.py  # ★ 端到端用户旅程（94 项断言，真模型 + 真存储）
 └── audit_storage_guard.py  # append-only 存储层护栏自检
-tests/                   # 集成 + 边界 + 前端 + E2E（659 个用例）
+tests/                   # 集成 + 边界 + 前端 + E2E（664 个用例）
 ```
 
 ### 审计目录与补偿文件
